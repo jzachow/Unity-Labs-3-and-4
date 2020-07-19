@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5532525548795506942}
   m_Layer: 0
   m_Name: OneBall
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,10 +107,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea94e28c3383ca246a1e6b4715665e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XRotation: 0
-  YRotation: 1
-  ZRotation: 0
-  DegressPerSecond: 180
+  XSpeed: 0
+  YSpeed: 0
+  ZSpeed: 0
+  Multiplier: 0.75
+  BallNumber: 0
+  TooFar: 5
 --- !u!54 &5532525548795506942
 Rigidbody:
   m_ObjectHideFlags: 0
